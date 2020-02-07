@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    text-align: center;
+  }
+  
+  li lit {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  /* footer 
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  font-size: 32px;
+  width: 100%;
+  background-color: rgb(252, 137, 137);
+  color: black;
+  text-align: center;
+}
+
